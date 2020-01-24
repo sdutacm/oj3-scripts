@@ -1,0 +1,27 @@
+{
+  "name": "oj3-scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "cross-env": "^6.0.3",
+    "fs-extra": "^8.1.0",
+    "lodash": "^4.17.15",
+    "log4js": "^6.1.0",
+    "moment": "^2.24.0",
+    "mysql2": "^2.1.0",
+    "redis": "^2.8.0",
+    "ts-node": "^8.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "^13.1.8",
+    "typescript": "^3.7.5"
+  }
+}

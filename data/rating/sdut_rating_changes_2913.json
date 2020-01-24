@@ -1,0 +1,569 @@
+{
+    "10020339": {
+        "rank": 1,
+        "user_name": "18110506106",
+        "old_rating": 1447,
+        "old_level": "rare",
+        "new_rating": 1669,
+        "new_level": "epic",
+        "rating_change": 222
+    },
+    "10020313": {
+        "rank": 2,
+        "user_name": "741228689",
+        "old_rating": 1709,
+        "old_level": "epic",
+        "new_rating": 1806,
+        "new_level": "epic",
+        "rating_change": 97
+    },
+    "10020367": {
+        "rank": 3,
+        "user_name": "18110581023",
+        "old_rating": 1503,
+        "old_level": "rare",
+        "new_rating": 1642,
+        "new_level": "epic",
+        "rating_change": 139
+    },
+    "10020327": {
+        "rank": 4,
+        "user_name": "nobleman",
+        "old_rating": 1738,
+        "old_level": "epic",
+        "new_rating": 1787,
+        "new_level": "epic",
+        "rating_change": 49
+    },
+    "10020386": {
+        "rank": 5,
+        "user_name": "18110501106",
+        "old_rating": 1400,
+        "old_level": "rare",
+        "new_rating": 1546,
+        "new_level": "rare",
+        "rating_change": 146
+    },
+    "10020311": {
+        "rank": 6,
+        "user_name": "18110543054",
+        "old_rating": 1639,
+        "old_level": "epic",
+        "new_rating": 1694,
+        "new_level": "epic",
+        "rating_change": 55
+    },
+    "10020353": {
+        "rank": 7,
+        "user_name": "18110506068",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1589,
+        "new_level": "rare",
+        "rating_change": 89
+    },
+    "10020350": {
+        "rank": 8,
+        "user_name": "18110581048",
+        "old_rating": 1513,
+        "old_level": "rare",
+        "new_rating": 1590,
+        "new_level": "rare",
+        "rating_change": 77
+    },
+    "10020316": {
+        "rank": 9,
+        "user_name": "18120581074",
+        "old_rating": 1472,
+        "old_level": "rare",
+        "new_rating": 1555,
+        "new_level": "rare",
+        "rating_change": 83
+    },
+    "10020359": {
+        "rank": 10,
+        "user_name": "18110502026",
+        "old_rating": 1545,
+        "old_level": "rare",
+        "new_rating": 1597,
+        "new_level": "rare",
+        "rating_change": 52
+    },
+    "10020360": {
+        "rank": 11,
+        "user_name": "18110506055",
+        "old_rating": 1524,
+        "old_level": "rare",
+        "new_rating": 1576,
+        "new_level": "rare",
+        "rating_change": 52
+    },
+    "10020363": {
+        "rank": 12,
+        "user_name": "18120581041",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1554,
+        "new_level": "rare",
+        "rating_change": 54
+    },
+    "10020372": {
+        "rank": 13,
+        "user_name": "18110581008",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1549,
+        "new_level": "rare",
+        "rating_change": 49
+    },
+    "10020337": {
+        "rank": 14,
+        "user_name": "18110506121",
+        "old_rating": 1644,
+        "old_level": "epic",
+        "new_rating": 1646,
+        "new_level": "epic",
+        "rating_change": 2
+    },
+    "10020334": {
+        "rank": 15,
+        "user_name": "18110581045",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1539,
+        "new_level": "rare",
+        "rating_change": 39
+    },
+    "10020333": {
+        "rank": 16,
+        "user_name": "18110501047",
+        "old_rating": 1556,
+        "old_level": "rare",
+        "new_rating": 1573,
+        "new_level": "rare",
+        "rating_change": 17
+    },
+    "10020342": {
+        "rank": 17,
+        "user_name": "17110581047",
+        "old_rating": 1594,
+        "old_level": "rare",
+        "new_rating": 1596,
+        "new_level": "rare",
+        "rating_change": 2
+    },
+    "10020381": {
+        "rank": 18,
+        "user_name": "17110501091",
+        "old_rating": 1522,
+        "old_level": "rare",
+        "new_rating": 1541,
+        "new_level": "rare",
+        "rating_change": 19
+    },
+    "10020317": {
+        "rank": 19,
+        "user_name": "18110501083",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1521,
+        "new_level": "rare",
+        "rating_change": 21
+    },
+    "10020374": {
+        "rank": 20,
+        "user_name": "18110501089",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1518,
+        "new_level": "rare",
+        "rating_change": 18
+    },
+    "10020331": {
+        "rank": 21,
+        "user_name": "17110506127",
+        "old_rating": 1504,
+        "old_level": "rare",
+        "new_rating": 1517,
+        "new_level": "rare",
+        "rating_change": 13
+    },
+    "10020330": {
+        "rank": 22,
+        "user_name": "18110543001",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1510,
+        "new_level": "rare",
+        "rating_change": 10
+    },
+    "10020354": {
+        "rank": 23,
+        "user_name": "18110506045",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1507,
+        "new_level": "rare",
+        "rating_change": 7
+    },
+    "10020364": {
+        "rank": 24,
+        "user_name": "18110581059",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1503,
+        "new_level": "rare",
+        "rating_change": 3
+    },
+    "10020320": {
+        "rank": 25,
+        "user_name": "18110506133",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1500,
+        "new_level": "rare",
+        "rating_change": 0
+    },
+    "10020329": {
+        "rank": 26,
+        "user_name": "18110543003",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1496,
+        "new_level": "rare",
+        "rating_change": -4
+    },
+    "10020378": {
+        "rank": 27,
+        "user_name": "17110591039",
+        "old_rating": 1576,
+        "old_level": "rare",
+        "new_rating": 1550,
+        "new_level": "rare",
+        "rating_change": -26
+    },
+    "10020358": {
+        "rank": 28,
+        "user_name": "18111202009",
+        "old_rating": 1488,
+        "old_level": "rare",
+        "new_rating": 1481,
+        "new_level": "rare",
+        "rating_change": -7
+    },
+    "10020382": {
+        "rank": 29,
+        "user_name": "17110502135",
+        "old_rating": 1510,
+        "old_level": "rare",
+        "new_rating": 1494,
+        "new_level": "rare",
+        "rating_change": -16
+    },
+    "10020335": {
+        "rank": 30,
+        "user_name": "18110581061",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1484,
+        "new_level": "rare",
+        "rating_change": -16
+    },
+    "10020365": {
+        "rank": 31,
+        "user_name": "17121081036",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1481,
+        "new_level": "rare",
+        "rating_change": -19
+    },
+    "10020343": {
+        "rank": 32,
+        "user_name": "BZU1834110628",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1478,
+        "new_level": "rare",
+        "rating_change": -22
+    },
+    "10020324": {
+        "rank": 33,
+        "user_name": "17110501088",
+        "old_rating": 1415,
+        "old_level": "rare",
+        "new_rating": 1413,
+        "new_level": "rare",
+        "rating_change": -2
+    },
+    "10020319": {
+        "rank": 34,
+        "user_name": "shengxiao",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1473,
+        "new_level": "rare",
+        "rating_change": -27
+    },
+    "10020380": {
+        "rank": 35,
+        "user_name": "17110501087",
+        "old_rating": 1413,
+        "old_level": "rare",
+        "new_rating": 1405,
+        "new_level": "rare",
+        "rating_change": -8
+    },
+    "10020371": {
+        "rank": 36,
+        "user_name": "wangyudie",
+        "old_rating": 1399,
+        "old_level": "excellent",
+        "new_rating": 1392,
+        "new_level": "excellent",
+        "rating_change": -7
+    },
+    "10020383": {
+        "rank": 37,
+        "user_name": "17110502153",
+        "old_rating": 1476,
+        "old_level": "rare",
+        "new_rating": 1446,
+        "new_level": "rare",
+        "rating_change": -30
+    },
+    "10020368": {
+        "rank": 38,
+        "user_name": "18110581046",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1462,
+        "new_level": "rare",
+        "rating_change": -38
+    },
+    "10020325": {
+        "rank": 39,
+        "user_name": "18110543002",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1459,
+        "new_level": "rare",
+        "rating_change": -41
+    },
+    "10020318": {
+        "rank": 40,
+        "user_name": "18110505019",
+        "old_rating": 1438,
+        "old_level": "rare",
+        "new_rating": 1409,
+        "new_level": "rare",
+        "rating_change": -29
+    },
+    "10020376": {
+        "rank": 41,
+        "user_name": "17111202010",
+        "old_rating": 1676,
+        "old_level": "epic",
+        "new_rating": 1594,
+        "new_level": "rare",
+        "rating_change": -82
+    },
+    "10020379": {
+        "rank": 42,
+        "user_name": "zhanghaokun",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1451,
+        "new_level": "rare",
+        "rating_change": -49
+    },
+    "10020347": {
+        "rank": 43,
+        "user_name": "17110506116",
+        "old_rating": 1473,
+        "old_level": "rare",
+        "new_rating": 1427,
+        "new_level": "rare",
+        "rating_change": -46
+    },
+    "10020344": {
+        "rank": 44,
+        "user_name": "18120501077",
+        "old_rating": 1420,
+        "old_level": "rare",
+        "new_rating": 1383,
+        "new_level": "excellent",
+        "rating_change": -37
+    },
+    "10020345": {
+        "rank": 45,
+        "user_name": "18110501009",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1444,
+        "new_level": "rare",
+        "rating_change": -56
+    },
+    "10020341": {
+        "rank": 46,
+        "user_name": "17111408059",
+        "old_rating": 1400,
+        "old_level": "rare",
+        "new_rating": 1362,
+        "new_level": "excellent",
+        "rating_change": -38
+    },
+    "10020336": {
+        "rank": 47,
+        "user_name": "18120505062",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1438,
+        "new_level": "rare",
+        "rating_change": -62
+    },
+    "10020346": {
+        "rank": 48,
+        "user_name": "18111101051",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1436,
+        "new_level": "rare",
+        "rating_change": -64
+    },
+    "10020351": {
+        "rank": 49,
+        "user_name": "17110501112",
+        "old_rating": 1453,
+        "old_level": "rare",
+        "new_rating": 1395,
+        "new_level": "excellent",
+        "rating_change": -58
+    },
+    "10020326": {
+        "rank": 50,
+        "user_name": "18120505065",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1431,
+        "new_level": "rare",
+        "rating_change": -69
+    },
+    "10020323": {
+        "rank": 51,
+        "user_name": "18110906015",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1428,
+        "new_level": "rare",
+        "rating_change": -72
+    },
+    "10020369": {
+        "rank": 52,
+        "user_name": "18110581049",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1426,
+        "new_level": "rare",
+        "rating_change": -74
+    },
+    "10020362": {
+        "rank": 53,
+        "user_name": "18110501082",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1424,
+        "new_level": "rare",
+        "rating_change": -76
+    },
+    "10020338": {
+        "rank": 54,
+        "user_name": "17110506043",
+        "old_rating": 1523,
+        "old_level": "rare",
+        "new_rating": 1441,
+        "new_level": "rare",
+        "rating_change": -82
+    },
+    "10020321": {
+        "rank": 55,
+        "user_name": "18110505056",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1419,
+        "new_level": "rare",
+        "rating_change": -81
+    },
+    "10020348": {
+        "rank": 56,
+        "user_name": "18110581026",
+        "old_rating": 1436,
+        "old_level": "rare",
+        "new_rating": 1361,
+        "new_level": "excellent",
+        "rating_change": -75
+    },
+    "10020352": {
+        "rank": 57,
+        "user_name": "zzzzZZZZ1234",
+        "old_rating": 1485,
+        "old_level": "rare",
+        "new_rating": 1401,
+        "new_level": "rare",
+        "rating_change": -84
+    },
+    "10020357": {
+        "rank": 58,
+        "user_name": "17121005037",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1411,
+        "new_level": "rare",
+        "rating_change": -89
+    },
+    "10020385": {
+        "rank": 59,
+        "user_name": "18110403149",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1409,
+        "new_level": "rare",
+        "rating_change": -91
+    },
+    "10020340": {
+        "rank": 60,
+        "user_name": "17120581027",
+        "old_rating": 1403,
+        "old_level": "rare",
+        "new_rating": 1319,
+        "new_level": "excellent",
+        "rating_change": -84
+    },
+    "10020384": {
+        "rank": 61,
+        "user_name": "bzucuiyuhui",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1404,
+        "new_level": "rare",
+        "rating_change": -96
+    },
+    "10020355": {
+        "rank": 62,
+        "user_name": "17121005031",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1401,
+        "new_level": "rare",
+        "rating_change": -99
+    },
+    "10020370": {
+        "rank": 63,
+        "user_name": "17111202003",
+        "old_rating": 1380,
+        "old_level": "excellent",
+        "new_rating": 1287,
+        "new_level": "excellent",
+        "rating_change": -93
+    }
+}

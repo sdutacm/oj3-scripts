@@ -1,0 +1,1397 @@
+{
+    "10013148": {
+        "rank": 1,
+        "user_name": "Everglow",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1730,
+        "new_level": "epic",
+        "rating_change": 230
+    },
+    "10013020": {
+        "rank": 2,
+        "user_name": "17110501014",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1694,
+        "new_level": "epic",
+        "rating_change": 194
+    },
+    "10013012": {
+        "rank": 3,
+        "user_name": "17111202025",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1673,
+        "new_level": "epic",
+        "rating_change": 173
+    },
+    "10013157": {
+        "rank": 4,
+        "user_name": "passer__",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1659,
+        "new_level": "epic",
+        "rating_change": 159
+    },
+    "10013000": {
+        "rank": 5,
+        "user_name": "17110506050",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1647,
+        "new_level": "epic",
+        "rating_change": 147
+    },
+    "10013205": {
+        "rank": 6,
+        "user_name": "marcel",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1638,
+        "new_level": "epic",
+        "rating_change": 138
+    },
+    "10013211": {
+        "rank": 7,
+        "user_name": "IGVA",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1629,
+        "new_level": "epic",
+        "rating_change": 129
+    },
+    "10013114": {
+        "rank": 8,
+        "user_name": "Akatsuki",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1622,
+        "new_level": "epic",
+        "rating_change": 122
+    },
+    "10012987": {
+        "rank": 9,
+        "user_name": "17110501070",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1616,
+        "new_level": "epic",
+        "rating_change": 116
+    },
+    "10013124": {
+        "rank": 10,
+        "user_name": "smilestruggler",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1610,
+        "new_level": "epic",
+        "rating_change": 110
+    },
+    "10013109": {
+        "rank": 11,
+        "user_name": "16120802038",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1605,
+        "new_level": "epic",
+        "rating_change": 105
+    },
+    "10013151": {
+        "rank": 12,
+        "user_name": "q283240408",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1600,
+        "new_level": "epic",
+        "rating_change": 100
+    },
+    "10012966": {
+        "rank": 13,
+        "user_name": "17110581107",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1596,
+        "new_level": "rare",
+        "rating_change": 96
+    },
+    "10013008": {
+        "rank": 14,
+        "user_name": "17111202010",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1592,
+        "new_level": "rare",
+        "rating_change": 92
+    },
+    "10013071": {
+        "rank": 15,
+        "user_name": "17110591027",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1588,
+        "new_level": "rare",
+        "rating_change": 88
+    },
+    "10013187": {
+        "rank": 16,
+        "user_name": "16110501069",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1584,
+        "new_level": "rare",
+        "rating_change": 84
+    },
+    "10013072": {
+        "rank": 17,
+        "user_name": "171105910273",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1580,
+        "new_level": "rare",
+        "rating_change": 80
+    },
+    "10013046": {
+        "rank": 18,
+        "user_name": "17110581046",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1577,
+        "new_level": "rare",
+        "rating_change": 77
+    },
+    "10013199": {
+        "rank": 19,
+        "user_name": "csy19260817",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1574,
+        "new_level": "rare",
+        "rating_change": 74
+    },
+    "10013161": {
+        "rank": 20,
+        "user_name": "wuminghui",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1571,
+        "new_level": "rare",
+        "rating_change": 71
+    },
+    "10013032": {
+        "rank": 21,
+        "user_name": "741228689",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1568,
+        "new_level": "rare",
+        "rating_change": 68
+    },
+    "10013219": {
+        "rank": 22,
+        "user_name": "hangzhou",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1565,
+        "new_level": "rare",
+        "rating_change": 65
+    },
+    "10012967": {
+        "rank": 23,
+        "user_name": "17120906080",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1563,
+        "new_level": "rare",
+        "rating_change": 63
+    },
+    "10013121": {
+        "rank": 24,
+        "user_name": "lynefs",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1560,
+        "new_level": "rare",
+        "rating_change": 60
+    },
+    "10012994": {
+        "rank": 25,
+        "user_name": "nobleman",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1557,
+        "new_level": "rare",
+        "rating_change": 57
+    },
+    "10012989": {
+        "rank": 26,
+        "user_name": "16110501012",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1555,
+        "new_level": "rare",
+        "rating_change": 55
+    },
+    "10012973": {
+        "rank": 27,
+        "user_name": "17110581098",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1553,
+        "new_level": "rare",
+        "rating_change": 53
+    },
+    "10013117": {
+        "rank": 28,
+        "user_name": "fold",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1550,
+        "new_level": "rare",
+        "rating_change": 50
+    },
+    "10013096": {
+        "rank": 29,
+        "user_name": "LQLlulu",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1548,
+        "new_level": "rare",
+        "rating_change": 48
+    },
+    "10013162": {
+        "rank": 30,
+        "user_name": "im0qianqian",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1546,
+        "new_level": "rare",
+        "rating_change": 46
+    },
+    "10013198": {
+        "rank": 31,
+        "user_name": "LDU_siz",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1544,
+        "new_level": "rare",
+        "rating_change": 44
+    },
+    "10013190": {
+        "rank": 32,
+        "user_name": "bseazh",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1542,
+        "new_level": "rare",
+        "rating_change": 42
+    },
+    "10013004": {
+        "rank": 33,
+        "user_name": "ly20164235",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1540,
+        "new_level": "rare",
+        "rating_change": 40
+    },
+    "10013002": {
+        "rank": 34,
+        "user_name": "17110401207",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1538,
+        "new_level": "rare",
+        "rating_change": 38
+    },
+    "10013181": {
+        "rank": 35,
+        "user_name": "ac_zzh",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1536,
+        "new_level": "rare",
+        "rating_change": 36
+    },
+    "10013175": {
+        "rank": 36,
+        "user_name": "FSC",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1534,
+        "new_level": "rare",
+        "rating_change": 34
+    },
+    "10013009": {
+        "rank": 37,
+        "user_name": "sdauzhoujinxiu",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1532,
+        "new_level": "rare",
+        "rating_change": 32
+    },
+    "10013068": {
+        "rank": 38,
+        "user_name": "16120581061",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1530,
+        "new_level": "rare",
+        "rating_change": 30
+    },
+    "10013035": {
+        "rank": 39,
+        "user_name": "17120501038",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1529,
+        "new_level": "rare",
+        "rating_change": 29
+    },
+    "10013059": {
+        "rank": 40,
+        "user_name": "17110581025",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1527,
+        "new_level": "rare",
+        "rating_change": 27
+    },
+    "10013016": {
+        "rank": 41,
+        "user_name": "18365789749",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1525,
+        "new_level": "rare",
+        "rating_change": 25
+    },
+    "10013041": {
+        "rank": 42,
+        "user_name": "16120506078",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1524,
+        "new_level": "rare",
+        "rating_change": 24
+    },
+    "10013185": {
+        "rank": 43,
+        "user_name": "jk17211768",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1522,
+        "new_level": "rare",
+        "rating_change": 22
+    },
+    "10013233": {
+        "rank": 44,
+        "user_name": "xu2907990037",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1520,
+        "new_level": "rare",
+        "rating_change": 20
+    },
+    "10013022": {
+        "rank": 45,
+        "user_name": "17110501044",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1519,
+        "new_level": "rare",
+        "rating_change": 19
+    },
+    "10013166": {
+        "rank": 46,
+        "user_name": "sjy9280",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1517,
+        "new_level": "rare",
+        "rating_change": 17
+    },
+    "10013104": {
+        "rank": 47,
+        "user_name": "1615925431",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1516,
+        "new_level": "rare",
+        "rating_change": 16
+    },
+    "10012981": {
+        "rank": 48,
+        "user_name": "16120501075",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1514,
+        "new_level": "rare",
+        "rating_change": 14
+    },
+    "10013204": {
+        "rank": 49,
+        "user_name": "rj2017211848",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1513,
+        "new_level": "rare",
+        "rating_change": 13
+    },
+    "10012976": {
+        "rank": 50,
+        "user_name": "duningyuan",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1511,
+        "new_level": "rare",
+        "rating_change": 11
+    },
+    "10013216": {
+        "rank": 51,
+        "user_name": "zhang6239897",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1510,
+        "new_level": "rare",
+        "rating_change": 10
+    },
+    "10012968": {
+        "rank": 52,
+        "user_name": "17120581088",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1508,
+        "new_level": "rare",
+        "rating_change": 8
+    },
+    "10013043": {
+        "rank": 53,
+        "user_name": "17110501086",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1507,
+        "new_level": "rare",
+        "rating_change": 7
+    },
+    "10013150": {
+        "rank": 54,
+        "user_name": "mirror",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1505,
+        "new_level": "rare",
+        "rating_change": 5
+    },
+    "10013106": {
+        "rank": 55,
+        "user_name": "sau_re",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1504,
+        "new_level": "rare",
+        "rating_change": 4
+    },
+    "10013173": {
+        "rank": 56,
+        "user_name": "16110572081",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1503,
+        "new_level": "rare",
+        "rating_change": 3
+    },
+    "10013014": {
+        "rank": 57,
+        "user_name": "17110506045",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1501,
+        "new_level": "rare",
+        "rating_change": 1
+    },
+    "10013006": {
+        "rank": 58,
+        "user_name": "sdaugaoxiang",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1500,
+        "new_level": "rare",
+        "rating_change": 0
+    },
+    "10013051": {
+        "rank": 59,
+        "user_name": "17110543022",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1499,
+        "new_level": "rare",
+        "rating_change": -1
+    },
+    "10013110": {
+        "rank": 60,
+        "user_name": "guojinsong",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1497,
+        "new_level": "rare",
+        "rating_change": -3
+    },
+    "10013134": {
+        "rank": 61,
+        "user_name": "17110506142",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1496,
+        "new_level": "rare",
+        "rating_change": -4
+    },
+    "10012969": {
+        "rank": 62,
+        "user_name": "17110506058",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1495,
+        "new_level": "rare",
+        "rating_change": -5
+    },
+    "10012996": {
+        "rank": 63,
+        "user_name": "16111202064",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1493,
+        "new_level": "rare",
+        "rating_change": -7
+    },
+    "10013125": {
+        "rank": 64,
+        "user_name": "XxxxxM1",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1492,
+        "new_level": "rare",
+        "rating_change": -8
+    },
+    "10013052": {
+        "rank": 65,
+        "user_name": "Mike",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1491,
+        "new_level": "rare",
+        "rating_change": -9
+    },
+    "10013170": {
+        "rank": 66,
+        "user_name": "16121101036",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1490,
+        "new_level": "rare",
+        "rating_change": -10
+    },
+    "10012972": {
+        "rank": 67,
+        "user_name": "16110581015",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1488,
+        "new_level": "rare",
+        "rating_change": -12
+    },
+    "10013234": {
+        "rank": 68,
+        "user_name": "zoomdong2017",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1487,
+        "new_level": "rare",
+        "rating_change": -13
+    },
+    "10013144": {
+        "rank": 69,
+        "user_name": "16120506077",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1486,
+        "new_level": "rare",
+        "rating_change": -14
+    },
+    "10013094": {
+        "rank": 70,
+        "user_name": "tangchuqi",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1485,
+        "new_level": "rare",
+        "rating_change": -15
+    },
+    "10013231": {
+        "rank": 71,
+        "user_name": "Esque",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1484,
+        "new_level": "rare",
+        "rating_change": -16
+    },
+    "10013036": {
+        "rank": 72,
+        "user_name": "mrxs",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1482,
+        "new_level": "rare",
+        "rating_change": -18
+    },
+    "10013070": {
+        "rank": 73,
+        "user_name": "alphaaa",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1481,
+        "new_level": "rare",
+        "rating_change": -19
+    },
+    "10013126": {
+        "rank": 74,
+        "user_name": "17110501033",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1480,
+        "new_level": "rare",
+        "rating_change": -20
+    },
+    "10013050": {
+        "rank": 75,
+        "user_name": "16110501023",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1479,
+        "new_level": "rare",
+        "rating_change": -21
+    },
+    "10013079": {
+        "rank": 76,
+        "user_name": "hhurrr",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1478,
+        "new_level": "rare",
+        "rating_change": -22
+    },
+    "10012998": {
+        "rank": 77,
+        "user_name": "20164064",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1477,
+        "new_level": "rare",
+        "rating_change": -23
+    },
+    "10013011": {
+        "rank": 78,
+        "user_name": "17111202009",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1476,
+        "new_level": "rare",
+        "rating_change": -24
+    },
+    "10012982": {
+        "rank": 79,
+        "user_name": "17120506077",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1475,
+        "new_level": "rare",
+        "rating_change": -25
+    },
+    "10012980": {
+        "rank": 80,
+        "user_name": "wangyifei8848",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1474,
+        "new_level": "rare",
+        "rating_change": -26
+    },
+    "10012991": {
+        "rank": 81,
+        "user_name": "17110403097",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1473,
+        "new_level": "rare",
+        "rating_change": -27
+    },
+    "10012988": {
+        "rank": 82,
+        "user_name": "1183307341",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1472,
+        "new_level": "rare",
+        "rating_change": -28
+    },
+    "10013080": {
+        "rank": 83,
+        "user_name": "17110502135",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1470,
+        "new_level": "rare",
+        "rating_change": -30
+    },
+    "10013208": {
+        "rank": 84,
+        "user_name": "YT1558504117",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1469,
+        "new_level": "rare",
+        "rating_change": -31
+    },
+    "10013220": {
+        "rank": 85,
+        "user_name": "508508",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1468,
+        "new_level": "rare",
+        "rating_change": -32
+    },
+    "10013066": {
+        "rank": 86,
+        "user_name": "17110581063",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1467,
+        "new_level": "rare",
+        "rating_change": -33
+    },
+    "10013153": {
+        "rank": 87,
+        "user_name": "17110506044",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1466,
+        "new_level": "rare",
+        "rating_change": -34
+    },
+    "10013194": {
+        "rank": 88,
+        "user_name": "YAORAIN",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1465,
+        "new_level": "rare",
+        "rating_change": -35
+    },
+    "10013040": {
+        "rank": 89,
+        "user_name": "17110543024",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1464,
+        "new_level": "rare",
+        "rating_change": -36
+    },
+    "10013018": {
+        "rank": 90,
+        "user_name": "16110501005",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1463,
+        "new_level": "rare",
+        "rating_change": -37
+    },
+    "10013026": {
+        "rank": 91,
+        "user_name": "17120581120",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1462,
+        "new_level": "rare",
+        "rating_change": -38
+    },
+    "10012978": {
+        "rank": 92,
+        "user_name": "1150760577",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1461,
+        "new_level": "rare",
+        "rating_change": -39
+    },
+    "10013137": {
+        "rank": 93,
+        "user_name": "wangxwgk",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1460,
+        "new_level": "rare",
+        "rating_change": -40
+    },
+    "10013063": {
+        "rank": 94,
+        "user_name": "jk17211754",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1459,
+        "new_level": "rare",
+        "rating_change": -41
+    },
+    "10013116": {
+        "rank": 95,
+        "user_name": "ljq2333",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1458,
+        "new_level": "rare",
+        "rating_change": -42
+    },
+    "10013003": {
+        "rank": 96,
+        "user_name": "17110506043",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1457,
+        "new_level": "rare",
+        "rating_change": -43
+    },
+    "10013229": {
+        "rank": 97,
+        "user_name": "GYH",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1456,
+        "new_level": "rare",
+        "rating_change": -44
+    },
+    "10013027": {
+        "rank": 98,
+        "user_name": "zzzzZZZZ1234",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1455,
+        "new_level": "rare",
+        "rating_change": -45
+    },
+    "10012990": {
+        "rank": 99,
+        "user_name": "16120543046",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1454,
+        "new_level": "rare",
+        "rating_change": -46
+    },
+    "10013160": {
+        "rank": 100,
+        "user_name": "pureZer",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1453,
+        "new_level": "rare",
+        "rating_change": -47
+    },
+    "10013057": {
+        "rank": 101,
+        "user_name": "16110543077",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1452,
+        "new_level": "rare",
+        "rating_change": -48
+    },
+    "10012984": {
+        "rank": 102,
+        "user_name": "16120572159",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1451,
+        "new_level": "rare",
+        "rating_change": -49
+    },
+    "10013069": {
+        "rank": 103,
+        "user_name": "lirongqian123",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1450,
+        "new_level": "rare",
+        "rating_change": -50
+    },
+    "10013215": {
+        "rank": 104,
+        "user_name": "xuzihan",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1449,
+        "new_level": "rare",
+        "rating_change": -51
+    },
+    "10013174": {
+        "rank": 105,
+        "user_name": "17111202014",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1448,
+        "new_level": "rare",
+        "rating_change": -52
+    },
+    "10013143": {
+        "rank": 106,
+        "user_name": "Acui",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1447,
+        "new_level": "rare",
+        "rating_change": -53
+    },
+    "10013223": {
+        "rank": 107,
+        "user_name": "Challenge1996",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1446,
+        "new_level": "rare",
+        "rating_change": -54
+    },
+    "10013090": {
+        "rank": 108,
+        "user_name": "Why",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1445,
+        "new_level": "rare",
+        "rating_change": -55
+    },
+    "10013168": {
+        "rank": 109,
+        "user_name": "16110581071",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1444,
+        "new_level": "rare",
+        "rating_change": -56
+    },
+    "10013042": {
+        "rank": 110,
+        "user_name": "17110501043",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1443,
+        "new_level": "rare",
+        "rating_change": -57
+    },
+    "10013111": {
+        "rank": 111,
+        "user_name": "InTheBloodHorse",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1442,
+        "new_level": "rare",
+        "rating_change": -58
+    },
+    "10013118": {
+        "rank": 112,
+        "user_name": "arlene",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1441,
+        "new_level": "rare",
+        "rating_change": -59
+    },
+    "10013067": {
+        "rank": 113,
+        "user_name": "17110506011",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1440,
+        "new_level": "rare",
+        "rating_change": -60
+    },
+    "10013055": {
+        "rank": 114,
+        "user_name": "crucial",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1439,
+        "new_level": "rare",
+        "rating_change": -61
+    },
+    "10013062": {
+        "rank": 115,
+        "user_name": "17110506047",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1438,
+        "new_level": "rare",
+        "rating_change": -62
+    },
+    "10013141": {
+        "rank": 116,
+        "user_name": "himself65",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1437,
+        "new_level": "rare",
+        "rating_change": -63
+    },
+    "10013015": {
+        "rank": 117,
+        "user_name": "17120501077",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1436,
+        "new_level": "rare",
+        "rating_change": -64
+    },
+    "10013138": {
+        "rank": 118,
+        "user_name": "BingYang",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1435,
+        "new_level": "rare",
+        "rating_change": -65
+    },
+    "10013112": {
+        "rank": 119,
+        "user_name": "User2016",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1434,
+        "new_level": "rare",
+        "rating_change": -66
+    },
+    "10013178": {
+        "rank": 120,
+        "user_name": "Millie",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1433,
+        "new_level": "rare",
+        "rating_change": -67
+    },
+    "10013037": {
+        "rank": 121,
+        "user_name": "17110906043",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1432,
+        "new_level": "rare",
+        "rating_change": -68
+    },
+    "10013201": {
+        "rank": 122,
+        "user_name": "17110502134",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1431,
+        "new_level": "rare",
+        "rating_change": -69
+    },
+    "10013197": {
+        "rank": 123,
+        "user_name": "jiaoluodexingxing",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1430,
+        "new_level": "rare",
+        "rating_change": -70
+    },
+    "10013221": {
+        "rank": 124,
+        "user_name": "Ronpa",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1429,
+        "new_level": "rare",
+        "rating_change": -71
+    },
+    "10013010": {
+        "rank": 125,
+        "user_name": "17111202012",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1428,
+        "new_level": "rare",
+        "rating_change": -72
+    },
+    "10013028": {
+        "rank": 126,
+        "user_name": "17110502005",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1427,
+        "new_level": "rare",
+        "rating_change": -73
+    },
+    "10013033": {
+        "rank": 127,
+        "user_name": "16110581107",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1426,
+        "new_level": "rare",
+        "rating_change": -74
+    },
+    "10013084": {
+        "rank": 128,
+        "user_name": "hannibal",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1425,
+        "new_level": "rare",
+        "rating_change": -75
+    },
+    "10013056": {
+        "rank": 129,
+        "user_name": "ACMteam999",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1424,
+        "new_level": "rare",
+        "rating_change": -76
+    },
+    "10013113": {
+        "rank": 130,
+        "user_name": "qinpeng123",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1423,
+        "new_level": "rare",
+        "rating_change": -77
+    },
+    "10013030": {
+        "rank": 131,
+        "user_name": "772217598",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1422,
+        "new_level": "rare",
+        "rating_change": -78
+    },
+    "10013093": {
+        "rank": 132,
+        "user_name": "Ch_zaqdt",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1421,
+        "new_level": "rare",
+        "rating_change": -79
+    },
+    "10013189": {
+        "rank": 133,
+        "user_name": "SDIBT2016",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1420,
+        "new_level": "rare",
+        "rating_change": -80
+    },
+    "10012999": {
+        "rank": 134,
+        "user_name": "17110401208",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1419,
+        "new_level": "rare",
+        "rating_change": -81
+    },
+    "10013088": {
+        "rank": 135,
+        "user_name": "c138Rick",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1418,
+        "new_level": "rare",
+        "rating_change": -82
+    },
+    "10013212": {
+        "rank": 136,
+        "user_name": "som_nico",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1417,
+        "new_level": "rare",
+        "rating_change": -83
+    },
+    "10013115": {
+        "rank": 137,
+        "user_name": "Simon",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1417,
+        "new_level": "rare",
+        "rating_change": -83
+    },
+    "10013164": {
+        "rank": 138,
+        "user_name": "17110506071",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1416,
+        "new_level": "rare",
+        "rating_change": -84
+    },
+    "10013086": {
+        "rank": 139,
+        "user_name": "zhaoyiman",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1415,
+        "new_level": "rare",
+        "rating_change": -85
+    },
+    "10013217": {
+        "rank": 140,
+        "user_name": "Red",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1414,
+        "new_level": "rare",
+        "rating_change": -86
+    },
+    "10012995": {
+        "rank": 141,
+        "user_name": "16110506066",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1413,
+        "new_level": "rare",
+        "rating_change": -87
+    },
+    "10013169": {
+        "rank": 142,
+        "user_name": "16120302028",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1412,
+        "new_level": "rare",
+        "rating_change": -88
+    },
+    "10013130": {
+        "rank": 143,
+        "user_name": "HANS_MOE",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1411,
+        "new_level": "rare",
+        "rating_change": -89
+    },
+    "10013101": {
+        "rank": 144,
+        "user_name": "17110506090",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1410,
+        "new_level": "rare",
+        "rating_change": -90
+    },
+    "10012992": {
+        "rank": 145,
+        "user_name": "16110502100",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1409,
+        "new_level": "rare",
+        "rating_change": -91
+    },
+    "10013019": {
+        "rank": 146,
+        "user_name": "17110591039",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1408,
+        "new_level": "rare",
+        "rating_change": -92
+    },
+    "10013196": {
+        "rank": 147,
+        "user_name": "17110502153",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1407,
+        "new_level": "rare",
+        "rating_change": -93
+    },
+    "10013225": {
+        "rank": 148,
+        "user_name": "17111202007",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1406,
+        "new_level": "rare",
+        "rating_change": -94
+    },
+    "10013031": {
+        "rank": 149,
+        "user_name": "jk17211761",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1405,
+        "new_level": "rare",
+        "rating_change": -95
+    },
+    "10013186": {
+        "rank": 150,
+        "user_name": "2861077568",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1404,
+        "new_level": "rare",
+        "rating_change": -96
+    },
+    "10013058": {
+        "rank": 151,
+        "user_name": "17110506052",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1403,
+        "new_level": "rare",
+        "rating_change": -97
+    },
+    "10013065": {
+        "rank": 152,
+        "user_name": "16110502002",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1402,
+        "new_level": "rare",
+        "rating_change": -98
+    },
+    "10013167": {
+        "rank": 153,
+        "user_name": "fengxiaoxiao",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1401,
+        "new_level": "rare",
+        "rating_change": -99
+    },
+    "10013200": {
+        "rank": 154,
+        "user_name": "17121202036",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1400,
+        "new_level": "rare",
+        "rating_change": -100
+    },
+    "10013045": {
+        "rank": 155,
+        "user_name": "17110506133",
+        "old_rating": 1500,
+        "old_level": "none",
+        "new_rating": 1399,
+        "new_level": "excellent",
+        "rating_change": -101
+    }
+}
