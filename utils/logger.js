@@ -1,4 +1,5 @@
 const log4js = require('log4js');
+const path = require('path');
 
 log4js.configure({
   appenders: {
@@ -7,11 +8,11 @@ log4js.configure({
     },
     file: {
       type: 'file',
-      filename: 'logs/log.log',
+      filename: path.join(__dirname, '../logs/log.log'),
     },
     oj3RatingFile: {
       type: 'file',
-      filename: 'logs/oj3Rating.log',
+      filename: path.join(__dirname, '../logs/oj3Rating.log'),
     },
   },
   categories: {

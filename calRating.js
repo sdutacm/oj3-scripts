@@ -163,6 +163,7 @@ async function calRating(contestId) {
   // fs.writeFileSync('tmp2.json', JSON.stringify(ratingChangeMap, null, '  '));
 
   log.info('cal rating done');
+
   // 更新 DB
   log.info('update DB');
   for (const u of calRatingUsers) {
