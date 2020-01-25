@@ -158,12 +158,13 @@ async function calRating(contestId) {
     };
   }
 
-  fs.writeFileSync('tmp.json', JSON.stringify(calRatingUsers, null, '  '));
-  fs.writeFileSync('tmp1.json', JSON.stringify(newTotalRatingMap, null, '  '));
-  fs.writeFileSync('tmp2.json', JSON.stringify(ratingChangeMap, null, '  '));
+  // fs.writeFileSync('tmp.json', JSON.stringify(calRatingUsers, null, '  '));
+  // fs.writeFileSync('tmp1.json', JSON.stringify(newTotalRatingMap, null, '  '));
+  // fs.writeFileSync('tmp2.json', JSON.stringify(ratingChangeMap, null, '  '));
 
   log.info('cal rating done');
   // 更新 DB
+  log.info('update DB');
   for (const u of calRatingUsers) {
     const userId = u.userId;
     const { rating, ratingHistory } = newTotalRatingMap[userId];
@@ -180,11 +181,21 @@ async function calRating(contestId) {
   ]);
 
   // 更新 Redis 状态
+  log.info('update Redis');
   await redisClient.setAsync(redisStatusKey, JSON.stringify({
     status: REDIS_STATUS_ENUM.DONE,
     progress: 100,
     used: Date.now() - _calRatingStartAt,
   }));
+
+  // 清除 Redis 缓存
+  log.info('clear Redis cache');
+  for (const ru of rankData) {
+    await redisClient.delAsync(`cache:user_detail:${ru.userId}`);
+    await redisClient.delAsync(`cache:contest_user_detail:${ru.contestUserId}`);
+  }
+  await redisClient.delAsync(`cache:contest_ranklist:${contestId}`);
+  await redisClient.delAsync(`cache:rating_contest_detail:${contestId}`);
   
   // console.log('res', calRatingUsers);
   // log.info('rankData', rankData);
