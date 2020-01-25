@@ -115,6 +115,7 @@ async function calRating(contestId) {
     progress: 0,
   }));
   let _lastUpdStatusAt = Date.now();
+  const _algoCalRatingStartAt = Date.now();
   const calRatingUsers = await calculateRating({
     users: ratingUsers,
     onProgress: async (progress) => {
@@ -129,6 +130,7 @@ async function calRating(contestId) {
       }
     },
   });
+  const algoCalRatingUsed = Date.now() - _algoCalRatingStartAt;
 
   // 计算总 rating（rating_until）和 rating change（rating_change）
   const newTotalRatingMap = { ...oldTotalRatingMap };
@@ -186,7 +188,8 @@ async function calRating(contestId) {
   await redisClient.setAsync(redisStatusKey, JSON.stringify({
     status: REDIS_STATUS_ENUM.DONE,
     progress: 100,
-    used: Date.now() - _calRatingStartAt,
+    used: algoCalRatingUsed,
+    totalUsed: Date.now() - _calRatingStartAt,
   }));
 
   // 清除 Redis 缓存
