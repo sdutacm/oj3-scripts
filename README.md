@@ -1,4 +1,4 @@
-# oj3-scripts
+# onlinejudge3-scripts
 
 ## 准备
 
