@@ -6,5 +6,5 @@ package-lock.json
 yarn.lock
 /dist
 /logs
-/configs/oj-db.prod.js
+/configs/*.prod.js
 /temp
