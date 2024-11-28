@@ -80,7 +80,7 @@ async function init() {
 }
 
 async function calRating(id) {
-  log.info(`id: ${id}`);
+  log.info(`id: ${id}, isCompetition: ${isCompetition}`);
   const _calRatingStartAt = Date.now();
   await init();
   let res;
@@ -294,9 +294,10 @@ async function main() {
   log.info('[oj3Rating.start]', new Date(), `isCompetition=${isCompetition}, id=${id}`);
   try {
     await calRating(id);
-    await log.info(`[oj3Rating.done] ${Date.now() - _startAt}ms`);
+    log.info(`[oj3Rating.done] ${Date.now() - _startAt}ms`);
+    process.exit(0);
   } catch (e) {
-    await log.error(e);
+    log.error(e);
     const redisStatusKey = isCompetition
       ? `status:competition_rating_status:${id}`
       : `status:contest_rating_status:${id}`;
@@ -307,9 +308,9 @@ async function main() {
         progress: 0,
       }),
     );
+    log.error(`[oj3Rating.err] ${Date.now() - _startAt}ms`);
+    process.exit(1);
   }
-  await sleep(2000);
-  process.exit(0);
 }
 
 main();
