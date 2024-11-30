@@ -1,13 +1,14 @@
 {
-  "name": "oj3-scripts",
-  "version": "1.0.0",
+  "name": "onlinejudge3-scripts",
+  "version": "2.0.0",
+  "private": true,
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "bLue",
   "license": "ISC",
   "dependencies": {
     "bluebird": "^3.7.2",
