@@ -1,31 +1,14 @@
-const mysql = require('mysql2/promise');
-const logger = require('./utils/logger');
+global.loggerCategory = 'updRatingContestFromJson';
+
 const fs = require('fs-extra');
 const path = require('path');
-const { sleep } = require('./utils/common');
+const { logger } = require('./utils/logger');
+const { getOjSqlAgent } = require('./utils/sql');
+const { runMain } = require('./utils/misc');
+
+const { query } = getOjSqlAgent();
 
 const username2userIdMap = {};
-
-const isDev = process.env.NODE_ENV === 'development';
-
-const log = logger.getLogger('dev');
-let dbConf = {};
-if (isDev) {
-  dbConf = require('./configs/oj-db.dev');
-} else {
-  dbConf = require('./configs/oj-db.prod');
-}
-
-let conn;
-
-async function query(sql, params) {
-  const SQL = conn.format(sql, params);
-  isDev && log.info('[sql.start]', SQL);
-  const _start = Date.now();
-  const [rows] = await conn.query(SQL);
-  isDev && log.info(`[sql.done]  ${Date.now() - _start}ms`);
-  return rows;
-}
 
 async function queryOne(sql, params) {
   const res = await query(sql + ' LIMIT 1', params);
@@ -33,12 +16,6 @@ async function queryOne(sql, params) {
     return res[0];
   }
   return null;
-}
-
-async function init() {
-  if (!conn) {
-    conn = await mysql.createConnection(dbConf);
-  }
 }
 
 async function findUserIdByUsername(username) {
@@ -54,8 +31,7 @@ async function findUserIdByUsername(username) {
 }
 
 async function updRatingContest(contestId) {
-  log.info(`contestId: ${contestId}`);
-  await init();
+  logger.info(`contestId: ${contestId}`);
   let res;
 
   const ratingUntil = fs.readJsonSync(path.join(__dirname, 'data', 'rating', `sdut_rating_info_until_${contestId}.json`));
@@ -102,13 +78,11 @@ async function updRatingContest(contestId) {
 }
 
 async function main() {
-  log.info('[updRatingContest.start]');
+  logger.info('[updRatingContest.start]');
   const contestIds = (process.argv[2] || '').split(',');
   for (const contestId of contestIds) {
     await updRatingContest(contestId);
   }
-  await sleep(2000);
-  process.exit(0);
 }
 
-main();
+runMain(main);

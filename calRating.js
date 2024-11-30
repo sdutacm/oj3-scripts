@@ -1,17 +1,18 @@
-const mysql = require('mysql2/promise');
-const redis = require('redis');
-const logger = require('./utils/logger');
-const moment = require('moment');
-const fs = require('fs-extra');
-const calculateRating = require('./libs/rating');
-const bluebird = require('bluebird');
-const _ = require('lodash');
-const { sleep } = require('./utils/common');
-// require('moment/locale/zh-cn');
+global.loggerCategory = 'calRating';
 
-bluebird.promisifyAll(redis.RedisClient.prototype);
-bluebird.promisifyAll(redis.Multi.prototype);
-// moment.locale('zh-cn');
+const fs = require('fs-extra');
+const path = require('path');
+const _ = require('lodash');
+const calculateRating = require('./libs/rating');
+const { isProd } = require('./utils/env');
+const { logger } = require('./utils/logger');
+const { getOjSqlAgent } = require('./utils/sql');
+const { getOjRedisAgent } = require('./utils/redis');
+const { runMain } = require('./utils/misc');
+const { moment } = require('./utils/datetime');
+
+const { query } = getOjSqlAgent({ connectionLimit: 2 });
+const redisClient = getOjRedisAgent();
 
 const INIT_RATING = 1500;
 const REDIS_STATUS_UPD_MIN_INTERVAL = 250;
@@ -23,32 +24,6 @@ const REDIS_STATUS_ENUM = {
 };
 
 let isCompetition = false;
-
-const isDev = process.env.NODE_ENV === 'development';
-// const isDev = true;
-
-const log = logger.getLogger(isDev ? 'dev' : 'oj3RatingProd');
-let dbConf = {};
-let redisConf = {};
-if (isDev) {
-  dbConf = require('./configs/oj-db.dev');
-  redisConf = require('./configs/oj-redis.dev');
-} else {
-  dbConf = require('./configs/oj-db.prod');
-  redisConf = require('./configs/oj-redis.prod');
-}
-
-let conn;
-let redisClient;
-
-async function query(sql, params) {
-  const SQL = conn.format(sql, params);
-  isDev && log.info('[sql.start]', SQL);
-  const _start = Date.now();
-  const [rows] = await conn.query(SQL);
-  isDev && log.info(`[sql.done]  ${Date.now() - _start}ms`);
-  return rows;
-}
 
 async function queryOne(sql, params) {
   const res = await query(sql + ' LIMIT 1', params);
@@ -67,22 +42,8 @@ async function getRedisKey(key) {
   }
 }
 
-async function init() {
-  if (!conn) {
-    conn = await mysql.createConnection(dbConf);
-  }
-  if (!redisClient) {
-    redisClient = redis.createClient(redisConf);
-    redisClient.on('error', function (err) {
-      log.error('[redis.error]', err);
-    });
-  }
-}
-
 async function calRating(id) {
-  log.info(`id: ${id}, isCompetition: ${isCompetition}`);
   const _calRatingStartAt = Date.now();
-  await init();
   let res;
 
   // 获取比赛详情
@@ -104,11 +65,11 @@ async function calRating(id) {
   if (!rankData) {
     throw Error('no redis rankdata found');
   }
-  log.info('found rankdata. users:', rankData.length);
+  logger.info('found rankdata. users:', rankData.length);
 
   // 获取 old rating 从上一个 rating 赛
   res = await queryOne(`SELECT * FROM rating_contest ORDER BY rating_contest_id DESC`);
-  log.info(
+  logger.info(
     'using last rating contest:',
     JSON.stringify({
       rating_contest_id: res.rating_contest_id,
@@ -118,11 +79,11 @@ async function calRating(id) {
   );
   const oldTotalRatingMap = JSON.parse(_.get(res, 'rating_until', '{}'));
   if (Object.keys(oldTotalRatingMap).length === 0) {
-    log.warn('no old rating found');
+    logger.warn('no old rating found');
   }
 
   // 计算 rating
-  log.info('cal rating...');
+  logger.info('cal rating...');
   const ratingUsers = rankData.map((r) => ({
     rank: r.rank,
     userId: r.userId,
@@ -153,7 +114,7 @@ async function calRating(id) {
             progress,
           }),
         );
-        log.info('update progress:', progress);
+        logger.info('update progress:', progress);
       }
     },
   });
@@ -203,10 +164,10 @@ async function calRating(id) {
   // fs.writeFileSync('tmp1.json', JSON.stringify(newTotalRatingMap, null, '  '));
   // fs.writeFileSync('tmp2.json', JSON.stringify(ratingChangeMap, null, '  '));
 
-  log.info('cal rating done');
+  logger.info('cal rating done');
 
   // 更新 DB
-  log.info('update DB');
+  logger.info('update DB');
   for (const u of calRatingUsers) {
     const userId = u.userId;
     const { rating, ratingHistory } = newTotalRatingMap[userId];
@@ -224,7 +185,7 @@ async function calRating(id) {
   );
 
   // 更新 Redis 状态
-  log.info('update Redis');
+  logger.info('update Redis');
   await redisClient.setAsync(
     redisStatusKey,
     JSON.stringify({
@@ -236,7 +197,7 @@ async function calRating(id) {
   );
 
   // 清除 Redis 缓存
-  log.info('clear Redis cache');
+  logger.info('clear Redis cache');
   for (const ru of rankData) {
     await redisClient.delAsync(`cache:user_detail:${ru.userId}`);
     ru.contestUserId && (await redisClient.delAsync(`cache:contest_user_detail:${ru.contestUserId}`));
@@ -251,12 +212,12 @@ async function calRating(id) {
   );
 
   // console.log('res', calRatingUsers);
-  // log.info('rankData', rankData);
+  // logger.info('rankData', rankData);
   // 用 username 换关联用户的 OJ userId（之后可以用 userid1）代替
   // if (detail.type === 2) {
   //   // 注册比赛
   //   const contestUsers = await query('SELECT * FROM contest_user WHERE cid=? AND status=1', [id]);
-  //   log.info(`[calRating] contest users:`, contestUsers.length);
+  //   logger.info(`[calRating] contest users:`, contestUsers.length);
   //   const contestUsernames = contestUsers.map(cu => cu.user_name);
   //   const relativeUserInfo = await query('SELECT user_id, user_name FROM user where binary user_name IN (?)', [contestUsernames]);
   //   for (const cu of contestUsers) {
@@ -264,7 +225,7 @@ async function calRating(id) {
   //     if (userInfo) {
   //       cu.user_id = userInfo.user_id;
   //     } else {
-  //       log.error(`the OJ user info for username \`${cu.user_name}\` not found`);
+  //       logger.error(`the OJ user info for username \`${cu.user_name}\` not found`);
   //       process.exit(1);
   //     }
   //   }
@@ -288,16 +249,14 @@ async function main() {
   isCompetition = process.argv[2] === 'competition';
   const id = +process.argv[3];
   if (!id) {
-    log.error('invalid competition/contest id');
+    console.error('Usage: node calRating.js [competition|contest] <id>');
     process.exit(1);
   }
-  log.info('[oj3Rating.start]', new Date(), `isCompetition=${isCompetition}, id=${id}`);
+  logger.info('[oj3Rating.start]', new Date(), `isCompetition=${isCompetition}, id=${id}, isProd=${isProd}`);
   try {
     await calRating(id);
-    log.info(`[oj3Rating.done] ${Date.now() - _startAt}ms`);
-    process.exit(0);
+    logger.info(`[oj3Rating.done] ${Date.now() - _startAt}ms`);
   } catch (e) {
-    log.error(e);
     const redisStatusKey = isCompetition
       ? `status:competition_rating_status:${id}`
       : `status:contest_rating_status:${id}`;
@@ -308,9 +267,9 @@ async function main() {
         progress: 0,
       }),
     );
-    log.error(`[oj3Rating.err] ${Date.now() - _startAt}ms`);
-    process.exit(1);
+    logger.error(`[oj3Rating.err] ${Date.now() - _startAt}ms`);
+    throw e;
   }
 }
 
-main();
+runMain(main);

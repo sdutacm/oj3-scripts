@@ -1,34 +1,59 @@
 const log4js = require('log4js');
-const path = require('path');
+const { isProd } = require('./env');
 
-log4js.configure({
+const options = {
   appenders: {
     console: {
       type: 'console',
     },
     file: {
       type: 'file',
-      filename: path.join(__dirname, '../logs/log.log'),
-    },
-    oj3RatingFile: {
-      type: 'file',
-      filename: path.join(__dirname, '../logs/oj3Rating.log'),
+      filename: 'logs/log.log',
     },
   },
   categories: {
     default: {
       appenders: ['console', 'file'],
-      level: 'info'
+      level: 'info',
     },
     dev: {
       appenders: ['console'],
-      level: 'info'
+      level: 'info',
     },
-    oj3RatingProd: {
-      appenders: ['console', 'oj3RatingFile'],
-      level: 'info'
+    prod: {
+      appenders: ['console', 'file'],
+      level: 'info',
     },
-  }
-});
+  },
+};
 
-module.exports = log4js;
+if (global.loggerCategory) {
+  options.appenders[`file-${global.loggerCategory}`] = {
+    type: 'file',
+    filename: `logs/${global.loggerCategory}.log`,
+  };
+  options.categories[global.loggerCategory] = {
+    appenders: ['console', `file-${global.loggerCategory}`],
+    level: 'info',
+  };
+}
+
+log4js.configure(options);
+
+function getDefaultLogger() {
+  return log4js.getLogger(isProd ? 'prod' : 'dev');
+}
+
+function getCategoryLogger(schedule) {
+  return log4js.getLogger(schedule);
+}
+
+const logger = global.loggerCategory
+  ? getCategoryLogger(global.loggerCategory)
+  : getDefaultLogger();
+
+module.exports = {
+  logger,
+  getDefaultLogger,
+  getCategoryLogger,
+};
